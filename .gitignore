@@ -1,0 +1,12 @@
+# Untracked general purpose files:
+.DS_Store
+.eslintcache
+.idea
+.project
+.settings
+.vscode
+.env
+
+dist
+node_modules
+
