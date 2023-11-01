@@ -1,11 +1,10 @@
 {
   "name": "ag-grid-example",
-  "version": "1.3.0",
+  "version": "1.0.0",
   "description": "Ag Grid example",
   "license": "UNLICENSED",
   "repository": {
-    "type": "git",
-    "url": "https://bitbucket.tools.3stripes.net/projects/M3PO/repos/m3-po-ui-lib"
+    "type": "git"
   },
   "engines": {
     "node": ">= 16",
