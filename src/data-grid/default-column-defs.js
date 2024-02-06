@@ -126,13 +126,6 @@ export const columnDefs = [
   {
     field: 'data10',
     headerName: 'Data 10',
-    cellStyle: {
-      display: 'block',
-      textOverflow: 'ellipsis',
-      whiteSpace: 'nowrap',
-      overflow: 'hidden'
-    },
-    lockPinned: true,
     minWidth: 90,
     width: 130
   },

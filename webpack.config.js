@@ -15,7 +15,7 @@ const devServer = {
   historyApiFallback: true,
   static: [ 'src', 'dist' ],
   liveReload: false,
-  port: 8081,
+  port: 8085,
   client: {
     overlay: false
   }
@@ -64,11 +64,7 @@ const getConfig = () => ({
           'style-loader',
           {
             loader: 'css-loader',
-            options: {
-              modules: {
-                mode: 'local'
-              }
-            }
+            options: cssLoaderOptions
           }
         ]
       }
