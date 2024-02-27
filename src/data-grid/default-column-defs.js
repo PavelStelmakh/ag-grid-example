@@ -103,12 +103,6 @@ export const columnDefs = [
   {
     field: 'data8',
     headerName: 'Data 8',
-    cellStyle: {
-      display: 'block',
-      textOverflow: 'ellipsis',
-      whiteSpace: 'nowrap',
-      overflow: 'hidden'
-    },
     width: 120,
     minWidth: 90
   },
